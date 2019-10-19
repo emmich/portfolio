@@ -188,6 +188,10 @@ body #fullpage .become .become-section .content .head h6 span {
   font-weight: bold;
 }
 
+body #fullpage .become .become-section .content .head h3, body #fullpage .become .become-section .content .head h4, body #fullpage .become .become-section .content .head h5, body #fullpage .become .become-section .content .head h5 {
+  margin-bottom: -6px;
+}
+
 body #fullpage .become .become-section .content .body {
   margin-top: 20px;
 }
@@ -435,17 +439,16 @@ body #fullpage .blog-post .content .blog-sample .blog .read a {
 
 body #fullpage .blog-post .content .blog-sample .blog img {
   height: 100px;
-  width: 280px;
+  width: 290px;
 }
 
 body #fullpage .contact-us {
-  height: 500px;
+  height: 470px;
   background-color: #021423;
   margin-top: 70px;
 }
 
 body #fullpage .contact-us .contact-section {
-  border: 1px solid yellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -455,9 +458,109 @@ body #fullpage .contact-us .contact-section {
 }
 
 body #fullpage .contact-us .contact-section .contact-boxes {
-  height: 400px;
-  border: 1px solid red;
   width: 340px;
-  padding: 20px;
+  margin-top: 40px;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .content {
+  margin-top: 100px;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .content h5 {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  width: 200px;
+  border-bottom: 1px solid #b9b5b5;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .content h6 {
+  margin-top: 10px;
+  color: #c7c2c2;
+  font-weight: 100;
+  width: 150px;
+  font-size: 11px;
+  letter-spacing: 1.3px;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .corperate-content {
+  width: 100%;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .top, body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .bottom, body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .left, body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .right {
+  border: 1px solid white;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .top {
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .bottom {
+  height: 90px;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .left, body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .right {
+  height: 150px;
+  border: 1px solid white;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .left img {
+  margin-top: 40px;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .right {
+  padding: 30px 10px;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .right h6 {
+  color: #00b1a6;
+  font-size: 16px;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .right h6 span {
+  color: white;
+  font-size: 11px;
+  font-weight: 100;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .bottom .bottom-content {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes .corperate-content .bottom .bottom-content h2 {
+  color: white;
+  font-weight: 700;
+}
+
+body #fullpage .contact-us .top-footer {
+  width: 550px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+body #fullpage .contact-us .top-footer h6 {
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+}
+
+body #fullpage #footer {
+  height: 30px;
+  background-color: #00b1a6;
+  margin: auto;
+}
+
+body #fullpage #footer h6 {
+  font-size: 10px;
+  color: white;
+  font-weight: 100;
+  display: block;
 }
 /*# sourceMappingURL=home.css.map */
