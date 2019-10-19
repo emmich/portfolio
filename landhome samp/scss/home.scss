@@ -5,7 +5,7 @@ body {
 
     #fullpage {
         height: 550px;
-        border: 1px solid black;
+        // border: 1px solid black;
 
         header {
             height: 600px;
@@ -15,7 +15,7 @@ body {
             // background
             .topnav {
                 height: auto;
-                border: 1px solid blue;
+                // border: 1px solid blue;
                 // padding-left: 100px;
                 display: flex;
                 justify-content: center;
@@ -25,17 +25,17 @@ body {
                     width: 600px;
                     .nav-brand {
                         margin-left: 50px;
-                        border: 1px solid white;
+                        // border: 1px solid white;
                     }
                     .float-right ul {
-                        border: 1px solid green;
+                        // border: 1px solid green;
                         width: 420px;
                         li {
                             width: 100%;
                             display: flex;
                             align-content: space-between;
                             .nav-full-link {
-                                border: 1px solid black;
+                                // border: 1px solid black;
                                 height: 50px;
                                 h4, h6 {
                                     font-weight: 300;
@@ -87,7 +87,7 @@ body {
             }
             
             .main-heading {
-                border: 1px solid white;
+                // border: 1px solid white;
                 width: 600px;
                 h5 {
                     font-size: 27px;
@@ -121,7 +121,7 @@ body {
 
         // ### First main page ####
         .become {
-            border: 1px solid red;
+            // border: 1px solid red;
             height: 900px;
             background-image: url(../image/front-bg.png);
             background-position: 100%;
@@ -129,10 +129,10 @@ body {
             background-repeat: no-repeat;
 
             .become-section, .dev-section {
-                border: 1px solid black;
+                // border: 1px solid black;
                 height: auto;
                 .content {
-                    border: 1px solid yellow;
+                    // border: 1px solid yellow;
                     padding: 0px;
                     margin: 0px;
                 }
@@ -235,7 +235,7 @@ body {
         // ### LAnd Properties ###
         .land-properties {
             height: 540px;
-            border: 1px solid black;
+            // border: 1px solid black;
             margin-top: 50px;
             background-color: #021423;
             .size {
@@ -245,13 +245,13 @@ body {
                 // margin: 0px;
             }
             .whole-content {
-                border: 1px solid red;
+                // border: 1px solid red;
                 // height: 400px;
                 // padding: 0px;
                 // margin: 0px;
                 width: 100%;
                 .left-section, .right-section {
-                    border: 1px solid black;
+                    // border: 1px solid black;
                     // height: 400px;
                     padding: 0px;
                     margin: auto;
@@ -269,7 +269,7 @@ body {
                         // display: flex;
                         // flex-wrap: wrap;
                         height: 400px;
-                        border: 1px solid red;
+                        // border: 1px solid red;
                         // width: 50%;
                         // justify-content: center;
                     }
@@ -312,7 +312,7 @@ body {
         }
 
         .button {
-            border: 1px solid red;
+            // border: 1px solid red;
             background-color: white;
             height: 300px;
             margin-top: 40px;
@@ -345,11 +345,11 @@ body {
         .blog-post {
             padding-top: 40px;
             // height: 300px;
-            border: 1px solid blue;
+            // border: 1px solid blue;
             background-color: #021423;
             .content {
                 // height: 200px;
-                border: 1px solid blue;
+                // border: 1px solid blue;
                 padding: 20px;
                 h2 {
                     font-size: 40px;
@@ -402,7 +402,7 @@ body {
                        }
                        img {
                            height: 100px;
-                           width: 270px;
+                           width: 280px;
                        }
                     }
                 }
@@ -412,9 +412,23 @@ body {
 
         .contact-us {
             height: 500px;
-            border: 1px solid black;
+            // border: 1px solid black;
             background-color: #021423;
             margin-top: 70px;
+            .contact-section {
+                border: 1px solid yellow;
+                display: flex;
+                justify-content: space-between;
+                .contact-boxes {
+                    height: 400px;
+                    border: 1px solid red;
+                    // display: inline-block;
+                    width: 340px;
+                    padding: 20px;
+                    
+                }
+            }
+            
         }
     }
 

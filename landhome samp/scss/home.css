@@ -7,7 +7,6 @@ body {
 
 body #fullpage {
   height: 550px;
-  border: 1px solid black;
 }
 
 body #fullpage header {
@@ -19,7 +18,6 @@ body #fullpage header {
 
 body #fullpage header .topnav {
   height: auto;
-  border: 1px solid blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,11 +33,9 @@ body #fullpage header .topnav nav {
 
 body #fullpage header .topnav nav .nav-brand {
   margin-left: 50px;
-  border: 1px solid white;
 }
 
 body #fullpage header .topnav nav .float-right ul {
-  border: 1px solid green;
   width: 420px;
 }
 
@@ -53,7 +49,6 @@ body #fullpage header .topnav nav .float-right ul li {
 }
 
 body #fullpage header .topnav nav .float-right ul li .nav-full-link {
-  border: 1px solid black;
   height: 50px;
 }
 
@@ -108,7 +103,6 @@ body #fullpage header .topnav nav .click:hover {
 }
 
 body #fullpage header .main-heading {
-  border: 1px solid white;
   width: 600px;
 }
 
@@ -141,7 +135,6 @@ body #fullpage header .start {
 }
 
 body #fullpage .become {
-  border: 1px solid red;
   height: 900px;
   background-image: url(../image/front-bg.png);
   background-position: 100%;
@@ -150,12 +143,10 @@ body #fullpage .become {
 }
 
 body #fullpage .become .become-section, body #fullpage .become .dev-section {
-  border: 1px solid black;
   height: auto;
 }
 
 body #fullpage .become .become-section .content, body #fullpage .become .dev-section .content {
-  border: 1px solid yellow;
   padding: 0px;
   margin: 0px;
 }
@@ -270,7 +261,6 @@ body #fullpage .divider {
 
 body #fullpage .land-properties {
   height: 540px;
-  border: 1px solid black;
   margin-top: 50px;
   background-color: #021423;
 }
@@ -280,12 +270,10 @@ body #fullpage .land-properties .size {
 }
 
 body #fullpage .land-properties .whole-content {
-  border: 1px solid red;
   width: 100%;
 }
 
 body #fullpage .land-properties .whole-content .left-section, body #fullpage .land-properties .whole-content .right-section {
-  border: 1px solid black;
   padding: 0px;
   margin: auto;
 }
@@ -301,7 +289,6 @@ body #fullpage .land-properties .whole-content .right-section {
 
 body #fullpage .land-properties .whole-content .right-section .left-bane, body #fullpage .land-properties .whole-content .right-section .right-bane {
   height: 400px;
-  border: 1px solid red;
 }
 
 body #fullpage .land-properties .whole-content .right-section .left-bane {
@@ -343,7 +330,6 @@ body #fullpage .land-properties .whole-content .right-section .right-bane {
 }
 
 body #fullpage .button {
-  border: 1px solid red;
   background-color: white;
   height: 300px;
   margin-top: 40px;
@@ -380,12 +366,10 @@ body #fullpage .button .content .start:hover {
 
 body #fullpage .blog-post {
   padding-top: 40px;
-  border: 1px solid blue;
   background-color: #021423;
 }
 
 body #fullpage .blog-post .content {
-  border: 1px solid blue;
   padding: 20px;
 }
 
@@ -451,13 +435,29 @@ body #fullpage .blog-post .content .blog-sample .blog .read a {
 
 body #fullpage .blog-post .content .blog-sample .blog img {
   height: 100px;
-  width: 270px;
+  width: 280px;
 }
 
 body #fullpage .contact-us {
   height: 500px;
-  border: 1px solid black;
   background-color: #021423;
   margin-top: 70px;
+}
+
+body #fullpage .contact-us .contact-section {
+  border: 1px solid yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #fullpage .contact-us .contact-section .contact-boxes {
+  height: 400px;
+  border: 1px solid red;
+  width: 340px;
+  padding: 20px;
 }
 /*# sourceMappingURL=home.css.map */
