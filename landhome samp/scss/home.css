@@ -1,0 +1,458 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body #fullpage {
+  height: 550px;
+  border: 1px solid black;
+}
+
+body #fullpage header {
+  height: 600px;
+  background-image: url(../image/headerimg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+body #fullpage header .topnav {
+  height: auto;
+  border: 1px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+body #fullpage header .topnav nav {
+  width: 600px;
+}
+
+body #fullpage header .topnav nav .nav-brand {
+  margin-left: 50px;
+  border: 1px solid white;
+}
+
+body #fullpage header .topnav nav .float-right ul {
+  border: 1px solid green;
+  width: 420px;
+}
+
+body #fullpage header .topnav nav .float-right ul li {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+body #fullpage header .topnav nav .float-right ul li .nav-full-link {
+  border: 1px solid black;
+  height: 50px;
+}
+
+body #fullpage header .topnav nav .float-right ul li .nav-full-link h4, body #fullpage header .topnav nav .float-right ul li .nav-full-link h6 {
+  font-weight: 300;
+  word-spacing: 1px;
+  letter-spacing: -1px;
+  color: white;
+}
+
+body #fullpage header .topnav nav .float-right ul li .nav-full-link h4:hover, body #fullpage header .topnav nav .float-right ul li .nav-full-link h6:hover {
+  color: #797575;
+}
+
+body #fullpage header .topnav nav .float-right ul li .nav-full-link h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+body #fullpage header .topnav nav .float-right ul li .nav-full-link h6 {
+  font-size: 11px;
+  word-spacing: 1px;
+  letter-spacing: -1px;
+  width: 70px;
+}
+
+body #fullpage header .topnav nav .click {
+  position: relative;
+  right: -150px;
+  border: 1px solid #fd6a01;
+  border-radius: 25px;
+  width: 120px;
+  padding: 8px 6px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+body #fullpage header .topnav nav .click span {
+  font-size: 10px;
+  font-weight: 200;
+}
+
+body #fullpage header .topnav nav .click:hover {
+  background-color: #fd6a01;
+}
+
+body #fullpage header .main-heading {
+  border: 1px solid white;
+  width: 600px;
+}
+
+body #fullpage header .main-heading h5 {
+  font-size: 27px;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+body #fullpage header .main-heading h2 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #00b1a6;
+  margin-top: -10px;
+  line-height: 80px;
+}
+
+body #fullpage header .start {
+  font-weight: 600;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  background-color: #fd6a01;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+body #fullpage .become {
+  border: 1px solid red;
+  height: 900px;
+  background-image: url(../image/front-bg.png);
+  background-position: 100%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+body #fullpage .become .become-section, body #fullpage .become .dev-section {
+  border: 1px solid black;
+  height: auto;
+}
+
+body #fullpage .become .become-section .content, body #fullpage .become .dev-section .content {
+  border: 1px solid yellow;
+  padding: 0px;
+  margin: 0px;
+}
+
+body #fullpage .become .become-section .content {
+  margin-top: 80px;
+}
+
+body #fullpage .become .become-section .content .head {
+  letter-spacing: -1px;
+  line-height: 100px;
+}
+
+body #fullpage .become .become-section .content .head h3 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #00213c;
+}
+
+body #fullpage .become .become-section .content .head h4 {
+  font-size: 40px;
+  font-weight: 200;
+  color: black;
+}
+
+body #fullpage .become .become-section .content .head h5 {
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+body #fullpage .become .become-section .content .head h6 {
+  color: black;
+  font-weight: 200;
+  font-size: 40px;
+}
+
+body #fullpage .become .become-section .content .head h6 span {
+  font-weight: bold;
+}
+
+body #fullpage .become .become-section .content .body {
+  margin-top: 20px;
+}
+
+body #fullpage .become .become-section .content .body p {
+  font-weight: 200;
+  word-spacing: 5px;
+  text-align: justify;
+}
+
+body #fullpage .become .become-section .content .body p span {
+  font-weight: bold;
+}
+
+body #fullpage .become .dev-section .content {
+  margin-top: 50px;
+  color: black;
+}
+
+body #fullpage .become .dev-section .content h5 {
+  font-size: 27px;
+}
+
+body #fullpage .become .dev-section .content h6 {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+body #fullpage .become .dev-section .content span {
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body #fullpage .become .dev-section .content img {
+  margin-left: 40px;
+}
+
+body #fullpage .become .dev-section .content .bottom-house {
+  margin-top: 30px;
+}
+
+body #fullpage .become .dev-section .content .bottom-house h5 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+body #fullpage .become .dev-section .content .bottom-house .start {
+  font-weight: 600;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  background-color: #fd6a01;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+body #fullpage .become .dev-section .content .bottom-house .start:hover {
+  background-color: #26a69a;
+}
+
+body #fullpage .divider {
+  background-color: #747171;
+  height: 50px;
+}
+
+body #fullpage .land-properties {
+  height: 540px;
+  border: 1px solid black;
+  margin-top: 50px;
+  background-color: #021423;
+}
+
+body #fullpage .land-properties .size {
+  border: 1px solid black;
+}
+
+body #fullpage .land-properties .whole-content {
+  border: 1px solid red;
+  width: 100%;
+}
+
+body #fullpage .land-properties .whole-content .left-section, body #fullpage .land-properties .whole-content .right-section {
+  border: 1px solid black;
+  padding: 0px;
+  margin: auto;
+}
+
+body #fullpage .land-properties .whole-content .left-section img {
+  position: relative;
+  bottom: 40px;
+}
+
+body #fullpage .land-properties .whole-content .right-section {
+  padding-top: 30px;
+}
+
+body #fullpage .land-properties .whole-content .right-section .left-bane, body #fullpage .land-properties .whole-content .right-section .right-bane {
+  height: 400px;
+  border: 1px solid red;
+}
+
+body #fullpage .land-properties .whole-content .right-section .left-bane {
+  text-align: justify;
+}
+
+body #fullpage .land-properties .whole-content .right-section .left-bane h6 {
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+}
+
+body #fullpage .land-properties .whole-content .right-section .left-bane span {
+  font-weight: 100;
+  color: #c2bebe;
+}
+
+body #fullpage .land-properties .whole-content .right-section .left-bane h1 {
+  color: #fd6a01;
+  margin-top: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+body #fullpage .land-properties .whole-content .right-section .left-bane .start {
+  font-weight: 600;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  background-color: #fd6a01;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+body #fullpage .land-properties .whole-content .right-section .right-bane {
+  background-color: white;
+}
+
+body #fullpage .button {
+  border: 1px solid red;
+  background-color: white;
+  height: 300px;
+  margin-top: 40px;
+  position: relative;
+}
+
+body #fullpage .button .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+body #fullpage .button .content .start {
+  font-weight: 600;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  background-color: #fd6a01;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  position: absolute;
+  bottom: 40px;
+}
+
+body #fullpage .button .content .start:hover {
+  background-color: #26a69a;
+}
+
+body #fullpage .blog-post {
+  padding-top: 40px;
+  border: 1px solid blue;
+  background-color: #021423;
+}
+
+body #fullpage .blog-post .content {
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+body #fullpage .blog-post .content h2 {
+  font-size: 40px;
+  color: white;
+}
+
+body #fullpage .blog-post .content h6 {
+  font-weight: 100;
+  color: white;
+}
+
+body #fullpage .blog-post .content .blog-sample {
+  margin-top: 40px;
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  top: 10px;
+}
+
+body #fullpage .blog-post .content .blog-sample .blog {
+  height: 120px;
+  width: 250px;
+  background-color: #696767;
+}
+
+body #fullpage .blog-post .content .blog-sample .blog .body {
+  padding: 7px 4px;
+}
+
+body #fullpage .blog-post .content .blog-sample .blog .body h6 {
+  font-weight: 100;
+  color: black;
+  text-align: justify;
+  font-size: 15px;
+}
+
+body #fullpage .blog-post .content .blog-sample .blog .read {
+  height: 22px;
+  background-color: #00b1a6;
+  padding-left: 5px;
+}
+
+body #fullpage .blog-post .content .blog-sample .blog .read a {
+  text-align: left;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+  float: left;
+}
+
+body #fullpage .contact-us {
+  height: 500px;
+  border: 1px solid black;
+  background-color: #021423;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=home.css.map */

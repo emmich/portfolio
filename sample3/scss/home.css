@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #000000;
+}
+
+#full_page {
+  /* background-color: blue; */
+  height: auto;
+  border: 1px solid #000;
+}
+
+#full_page #top {
+  border: 1px solid blue;
+  height: 500px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#full_page #top .abstract {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+#full_page #top .abstract .left_nav, #full_page #top .abstract .right_abstract {
+  border: 1px solid black;
+  height: 500px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#full_page #top .abstract .left_nav #top_nav {
+  height: 70px;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,417 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    #fullpage {
+        height: 550px;
+        border: 1px solid black;
+
+        header {
+            height: 600px;
+            background-image: url(../image/headerimg.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            // background
+            .topnav {
+                height: auto;
+                border: 1px solid blue;
+                // padding-left: 100px;
+                display: flex;
+                justify-content: center;
+                position: relative;
+                nav {
+                    
+                    width: 600px;
+                    .nav-brand {
+                        margin-left: 50px;
+                        border: 1px solid white;
+                    }
+                    .float-right ul {
+                        border: 1px solid green;
+                        width: 420px;
+                        li {
+                            width: 100%;
+                            display: flex;
+                            align-content: space-between;
+                            .nav-full-link {
+                                border: 1px solid black;
+                                height: 50px;
+                                h4, h6 {
+                                    font-weight: 300;
+                                    word-spacing: 1px;
+                                    letter-spacing: -1px;
+                                    color: white;
+                                    &:hover {
+                                        color: rgb(121, 117, 117);
+                                    }
+                                }
+                                h4 {
+                                    font-size: 14px;
+                                    text-transform: uppercase;
+                                    font-weight: 500;
+                                    margin-bottom: 0px;
+                                }
+                                h6 {
+                                    font-size: 11px;
+                                    word-spacing: 1px;
+                                    letter-spacing: -1px;
+                                    width: 70px;
+                                }
+                                
+                            }
+                        }
+                    }
+             
+                    .click {
+                        position: relative;
+                        right: -150px;
+                        border: 1px solid rgb(253, 106, 1);
+                        border-radius: 25px;
+                        width: 120px;
+                        padding: 8px 6px;
+                        text-align: center;
+                        font-size: 14px;
+                        color: white;
+                        text-decoration-color: none;
+                        text-decoration-line: none;
+                        span {
+                            font-size: 10px;
+                            font-weight: 200;
+                        }
+                    }
+                    .click:hover {
+                        background-color: rgb(253, 106, 1);
+                    }
+                }
+            }
+            
+            .main-heading {
+                border: 1px solid white;
+                width: 600px;
+                h5 {
+                    font-size: 27px;
+                    font-weight: 200;
+                    color: white;
+                    margin-bottom: 0px;
+                    margin-top:0px;
+                }
+                h2 {
+                    font-size: 80px;
+                    font-weight: bold;
+                    color: rgb(0, 177, 166);
+                    margin-top: -10px;
+                    line-height: 80px;
+                }
+                
+            }
+            .start {
+                font-weight: 600;
+                color: white;
+                padding: 8px 18px;
+                // border: 1px solid pink;
+                border-radius: 5px;
+                text-transform: uppercase;
+                margin-top: 20px;
+                background-color: rgb(253, 106, 1);
+                text-decoration-line: none;
+            }
+        }
+
+
+        // ### First main page ####
+        .become {
+            border: 1px solid red;
+            height: 900px;
+            background-image: url(../image/front-bg.png);
+            background-position: 100%;
+            background-size: 80%;
+            background-repeat: no-repeat;
+
+            .become-section, .dev-section {
+                border: 1px solid black;
+                height: auto;
+                .content {
+                    border: 1px solid yellow;
+                    padding: 0px;
+                    margin: 0px;
+                }
+            }
+            .become-section {
+                .content {
+                    margin-top: 80px;
+                    .head {
+                      letter-spacing: -1px;
+                      line-height: 100px;
+                        h3 {
+                            font-size: 35px;
+                            font-weight: bold;
+                            color: rgb(0, 33, 60);
+                        }
+                        h4 {
+                            font-size: 40px;
+                            font-weight: 200;
+                            color: black;
+                        }
+                        h5 {
+                            color: red;
+                            font-size: 40px;
+                            font-weight: bold
+                        }
+                        h6 {
+                            color: black;
+                            font-weight: 200;
+                            font-size: 40px;
+                            span {
+                                font-weight: bold;
+                            }
+                        }
+                    } 
+                    .body {
+                        margin-top: 20px;
+                        p {
+                            font-weight: 200;
+                            word-spacing: 5px;
+                            text-align: justify;
+                            span {
+                                font-weight: bold;
+                            }
+                        }
+                    } 
+                }  
+            }
+            .dev-section {
+                .content {
+                    margin-top: 50px;
+                    color: black;
+                    h5 {
+                        font-size: 27px;
+                    }
+                    h6 {
+                        margin-top: 10px;
+                        font-weight: 200;
+                        font-size: 20px;
+                        margin-bottom: 0px;
+                    }
+                    span {
+                        margin-top: 0px;
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                    img {
+                        margin-left: 40px;
+                    }
+                    .bottom-house {
+                        margin-top: 30px;
+                        h5 {
+                            font-size: 17px;
+                            font-weight: 500;
+                            margin-bottom: 15px;
+                        }
+                        .start {
+                            font-weight: 600;
+                            color: white;
+                            padding: 8px 18px;
+                            // border: 1px solid pink;
+                            border-radius: 5px;
+                            text-transform: uppercase;
+                            margin-top: 20px;
+                            background-color: rgb(253, 106, 1);
+                            text-decoration-line: none;
+
+                            &:hover {
+                                background-color: #26a69a;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .divider {
+            background-color: rgb(116, 113, 113);
+            height: 50px;
+        }
+
+        // ### LAnd Properties ###
+        .land-properties {
+            height: 540px;
+            border: 1px solid black;
+            margin-top: 50px;
+            background-color: #021423;
+            .size {
+                border:1px solid black;
+                // width:100%;
+                // padding: 0px;
+                // margin: 0px;
+            }
+            .whole-content {
+                border: 1px solid red;
+                // height: 400px;
+                // padding: 0px;
+                // margin: 0px;
+                width: 100%;
+                .left-section, .right-section {
+                    border: 1px solid black;
+                    // height: 400px;
+                    padding: 0px;
+                    margin: auto;
+                }
+                .left-section {
+                    img {
+                        position: relative;
+                        bottom: 40px;
+                    }
+                }
+                .right-section {
+                    padding-top: 30px;
+                    // width: 100%;
+                    .left-bane, .right-bane {
+                        // display: flex;
+                        // flex-wrap: wrap;
+                        height: 400px;
+                        border: 1px solid red;
+                        // width: 50%;
+                        // justify-content: center;
+                    }
+                    .left-bane {
+                        text-align: justify;
+                        h6 {
+                            font-size: 16px;
+                            color: white;
+                            margin-top: 30px;
+                            
+                        }
+                        span {
+                            font-weight: 100;
+                            color: rgb(194, 190, 190);
+                        }
+                        h1 {
+                            color: rgb(253, 106, 1);
+                            margin-top: 25px;
+                            font-weight: bold;
+                            margin-bottom: 20px;
+                        }
+                        .start {
+                            font-weight: 600;
+                            color: white;
+                            padding: 8px 18px;
+                            // border: 1px solid pink;
+                            border-radius: 5px;
+                            text-transform: uppercase;
+                            margin-top: 30px;
+                            background-color: rgb(253, 106, 1);
+                            text-decoration-line: none;
+                        }
+                    }
+                    .right-bane {
+                        background-color: white;
+                    }
+                }
+            }
+
+        }
+
+        .button {
+            border: 1px solid red;
+            background-color: white;
+            height: 300px;
+            margin-top: 40px;
+            position: relative;
+            .content {
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                .start {
+                    font-weight: 600;
+                    color: white;
+                    padding: 8px 18px;
+                    // border: 1px solid pink;
+                    border-radius: 5px;
+                    text-transform: uppercase;
+                    margin-top: 30px;
+                    background-color: rgb(253, 106, 1);
+                    text-decoration-line: none;
+                    position: absolute;
+                    bottom:40px;
+                    &:hover {
+                        background-color: #26a69a;
+                    }
+                }
+            }
+            
+        }
+
+
+        .blog-post {
+            padding-top: 40px;
+            // height: 300px;
+            border: 1px solid blue;
+            background-color: #021423;
+            .content {
+                // height: 200px;
+                border: 1px solid blue;
+                padding: 20px;
+                h2 {
+                    font-size: 40px;
+                    color: white;
+                }
+                h6 {
+                    font-weight: 100;
+                    color: white;
+                    
+                }
+                .blog-sample {
+                    margin-top: 40px;
+                    height: 140px;
+                    // border: 1px solid yellow;
+                    display: flex;
+                    // flex-wrap: wrap;
+                    align-content: space-between;
+                    justify-content: space-between;
+                    position: relative;
+                    top: 10px;
+                    .blog {
+                        height: 120px;
+                        // border: 1px solid red;
+                        width: 250px;
+                        background-color: rgb(105, 103, 103);
+                       .body {
+                           padding: 7px 4px;
+                        //    border: 1px solid black;
+                           h6 {
+                            font-weight: 100;
+                            color: black;
+                            text-align: justify;
+                            font-size: 15px;
+                           }
+                       }
+                       .read {
+                            // border: 1px solid blue;
+                            height: 22px;
+                            background-color: rgb(0, 177, 166);
+                            padding-left: 5px;
+                            a {
+                                text-align: left;
+                                text-decoration-line: none;
+                                text-decoration-color: none;
+                                color: white;
+                                font-size: 13px;
+                                font-weight: 300;
+                                float: left;
+                            }
+                       }
+                    }
+                }
+            }
+        }
+
+
+        .contact-us {
+            height: 500px;
+            border: 1px solid black;
+            background-color: #021423;
+            margin-top: 100px;
+        }
+    }
+
+}

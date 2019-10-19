@@ -1,0 +1,853 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exchange</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="scss/exchange1.css">
+</head>
+
+<body>
+    <main>
+        <div id="exchange">
+            <section class="top_menu">
+                <div class="container-fluid full_side">
+                    <div class="row">
+                        <div class="col-lg-2 first">
+                            <span>Current Market</span>
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                NEO-ETH
+                                <i class="fa fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">BTC-ETH</a>
+                                <a class="dropdown-item" href="#">ETH-BCH</a>
+                                <a class="dropdown-item" href="#">NEO-BCH</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 second">
+                            <div class="crypto_price">
+                                <span>Last NEO price</span>
+                                <h5>0.0000645 ETH <em>. $9.5</em></h5>
+                            </div>
+                            <div class="change">
+                                <span>24h change</span>
+                                <h5>11.02%</h5>
+                            </div>
+                            <div class="volume">
+                                <span>24h volume</span>
+                                <h5>3,304 ETH</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 third">
+                            <li class="list-unstyled"><a href="#" class="hotkeys">Hotkeys</a></li>
+                            <li class="list-unstyled switch_to"><a href=" #" class="switch_to">Switch to simplified</a>
+                            </li>
+                            <li class="list-unstyled"><a href=" #" class="notify"><img src="icon/notification.svg"
+                                        width="25px;"></a></li>
+                            <li class="list-unstyled"><a href=" #" class="user"><img src="icon/user.svg"
+                                        width="25px;"></a></li>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main_body">
+                <div class="container-fluid all_trades">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-5 col-md-5 account_books">
+                            <div class="container left">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 left_accounts">
+                                        <div class="account_section">
+
+                                            <div class="trade_account">
+                                                <nav>
+                                                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                                        <a class="nav-item nav-link active" id="nav-trade"
+                                                            data-toggle="tab" href="#nav-trading" role="tab"
+                                                            aria-controls="nav-trade" aria-selected="true">Trading
+                                                            account</a>
+                                                        <a class="nav-item nav-link" id="nav-personal" data-toggle="tab"
+                                                            href="#nav-personnel" role="tab"
+                                                            aria-controls="nav-personal" aria-selected="false">Personal
+                                                            account</a>
+                                                    </div>
+                                                </nav>
+                                                <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                                    <div class="tab-pane fade show active" id="nav-trade"
+                                                        role="tabpanel" aria-labelledby="nav-home-tab">
+                                                        <div class="coin_content">
+                                                            <div class="content_one">
+                                                                <div class="figures">
+                                                                    <span>ETH</span>
+                                                                    <h5>20<em>.0293</em></h5>
+                                                                </div>
+                                                                <a href="#">Transfer</a>
+                                                            </div>
+
+                                                            <div class="content_two">
+                                                                <div class="figures">
+                                                                    <span>ETH</span>
+                                                                    <h5>960<em>.00</em></h5>
+                                                                </div>
+                                                                <a href="#">Transfer</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="nav-personal" role="tabpanel"
+                                                        aria-labelledby="nav-profile-tab">
+                                                        <div class="coin_content">me</div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="purchase">
+                                                <nav>
+                                                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                                        <a class="nav-item nav-link active" id="nav-trade"
+                                                            data-toggle="tab" href="#nav-trading" role="tab"
+                                                            aria-controls="nav-trade" aria-selected="true">Buy NEO</a>
+                                                        <a class="nav-item nav-link" id="nav-personal" data-toggle="tab"
+                                                            href="#nav-personnel" role="tab"
+                                                            aria-controls="nav-personal" aria-selected="false">Sell
+                                                            NEO</a>
+                                                    </div>
+                                                </nav>
+                                                <div class="tab-content" id="nav-tabContent">
+                                                    <div class="tab-pane fade show active" id="nav-trade"
+                                                        role="tabpanel" aria-labelledby="nav-home-tab">
+                                                        <nav>
+                                                            <div class="nav nav-tabs nav-fill inner" id="nav-tab"
+                                                                role="tablist">
+                                                                <a class="nav-item nav-link active" id="nav-trade"
+                                                                    data-toggle="tab" href="#nav-trading" role="tab"
+                                                                    aria-controls="nav-trade"
+                                                                    aria-selected="true">Market</a>
+                                                                <a class="nav-item nav-link" id="nav-personal"
+                                                                    data-toggle="tab" href="#nav-personnel" role="tab"
+                                                                    aria-controls="nav-personal"
+                                                                    aria-selected="false">Limit</a>
+                                                                <a class="nav-item nav-link" id="nav-personal"
+                                                                    data-toggle="tab" href="#nav-personnel" role="tab"
+                                                                    aria-controls="nav-personal"
+                                                                    aria-selected="false">Stop-loss</a>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="nav-personal" role="tabpanel"
+                                                        aria-labelledby="nav-profile-tab">
+                                                        <div class="coin_content">me</div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="purchase_contents m-3 mt-4">
+                                                    <div class="amount_form">
+                                                        <h5>Amount</h5>
+                                                        <form class="align-item-between">
+                                                            <input type="number" placeholder="0">
+                                                            <span>Max <em>| NEO</em></span>
+                                                        </form>
+                                                    </div>
+                                                    <div class="limit_form mt-3">
+                                                        <h5>Limit price</h5>
+                                                        <form class="justify-content-between">
+                                                            <input type="number" placeholder="0">
+                                                            <span class="ml-4">ETH</span>
+                                                        </form>
+                                                        <div class="limit_dropdown">
+                                                            <a class="nav-link " href="#" id="navbarDropdownMenuLink"
+                                                                data-toggle="dropdown" aria-haspopup="true"
+                                                                aria-expanded="false">
+                                                                Good 'til cancelled
+                                                                <i class="fa fa-chevron-down"></i>
+                                                            </a>
+                                                            <div class="dropdown-menu"
+                                                                aria-labelledby="navbarDropdownMenuLink">
+                                                                <a class="dropdown-item" href="#">Bad 'til cancelled</a>
+                                                                <a class="dropdown-item" href="#">Very bad</a>
+                                                                <a class="dropdown-item" href="#">Good 'til
+                                                                    cancelled</a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="estimates">
+                                                        <div class="first">
+                                                            <h5>Estimated <em>fee</em></h5>
+                                                            <span>0 ETH</span>
+                                                        </div>
+                                                        <div class="second">
+                                                            <h5>Estimated total</h5>
+                                                            <span>0 NEO</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="takers">
+                                                        <h5>Allow taker</h5>
+                                                        <!-- <input type="radio"> -->
+                                                        <!-- <label class="container">One -->
+                                                        <input type="checkbox" checked="checked">
+                                                        <span class="checkmark"></span>
+                                                        <!-- </label> -->
+                                                    </div>
+                                                    <button type="submit" class="buy_order mt-4"
+                                                        label="create buy order">Create buy order</button>
+                                                    <div class="daily_trade">
+                                                        <div class="first">
+                                                            <h5>Daily trading limit </h5>
+                                                            <a>Incease my limit</a>
+                                                        </div>
+                                                        <div class="second">
+                                                            <h5>$1000.00/$2000.00</h5>
+                                                            <hr>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-lg-6 right_books">
+                                        <div class="book_section">
+                                            <div class="order_book">
+                                                <div class="top_order">
+                                                    <h5>Order book</h5>
+                                                    <div class="adjust">
+                                                        <i class="fa fa-arrows"></i>
+                                                        <i class="fa fa-arrow-up"></i>
+                                                        <i class="fa fa-arrow-down"></i>
+                                                        <i class="fa fa-chevron-down"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="table_head">
+                                                    <h5>Order size</h5>
+                                                    <h5 class="two">Price</h5>
+                                                </div>
+                                                <div class="table_book">
+                                                    <table class="table table-striped">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="table_head2">
+                                                    <div class="arrow_select">
+                                                        <i class="fa fa-arrows-v"></i>
+                                                    </div>
+                                                    <h5>Spread</h5>
+                                                    <h5 class="two">0.000678</h5>
+                                                </div>
+                                                <div class="table_book">
+                                                    <table class="table table-striped">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-xl-7 col-lg-7 col-md-7 trade_prices">
+                            <div class="container right">
+                                <div class="row">
+                                    <div class="col-xl-8 markets">
+                                        <div class="graph">
+                                            <div class="top_nav">
+                                                <div class="left_nav">
+                                                    <nav>
+                                                        <div class="nav nav-tabs nav-fill inner" id="nav-tab"
+                                                            role="tablist">
+                                                            <a class="nav-item nav-link active" id="nav-active"
+                                                                data-toggle="tab" href="#" role="tab"
+                                                                aria-controls="nav-active"
+                                                                aria-selected="true">Price</a>
+                                                            <a class="nav-item nav-link" id="nav-field"
+                                                                data-toggle="tab" href="#nav-foeld" role="tab"
+                                                                aria-controls="nav-field" aria-selected="false">Market
+                                                                dept</a>
+
+                                                        </div>
+
+                                                    </nav>
+
+                                                </div>
+
+                                                <div class="right_nav">
+                                                    <div class="hour">1h <a href=""><i class="fa fa-arrow-up"></i></a>
+                                                    </div>
+                                                    <div class="plug"><i class="fa fa-arrow-up"></i><span><a href=""><i
+                                                                    class="fa fa-arrow-down"></i></a></span></div>
+                                                    <div class="indicate">indicators<a href=""><i
+                                                                class="fa fa-arrow-up"></i></a></div>
+                                                    <div class="overlay">Overlays<a href=""><i
+                                                                class="fa fa-arrow-up"></i></a></div>
+                                                    <div class="adjust"><a href=""><i class="fa fa-arrow-up"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="table_head">
+                                                <div class="neo_eth">
+                                                    <h5>NEO-ETH</h5>
+                                                </div>
+                                                <div class="neo_scores">
+                                                    <h5 class="one"><span>V</span>. 109</h5>
+                                                    <h5 class="two"><span>O</span>. 0.68983743</h5>
+                                                    <h5 class="three"><span>C</span>. 1.784904</h5>
+                                                    <h5 class="four"><span>H</span>. 0.3874678</h5>
+                                                    <h5 class="five"><span>L</span>. 0.749393</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 right_recents">
+                                        <div class="recent_section">
+                                            <div class="top_recent">
+                                                <h5>Recent trades</h5>
+                                                <h5 class="two">2:12:30</h5>
+                                                <div class="table_head">
+                                                    <h5>Order size</h5>
+                                                    <h5 class="two">Price</h5>
+                                                    <h5 class="three">Time</h5>
+                                                </div>
+                                                <div class="table_book">
+                                                    <table class="table table-striped">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down r"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down r"></i></td>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down r"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down r"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down r"></i></td>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down r"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down r"></i></td>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down r"></i></td>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down r"></i></td>
+                                                                <td>166</td>
+                                                                <td>1.7890e4</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><i class="fa fa-arrow-down g"></i></td>
+                                                                <td>3</td>
+                                                                <td>0.68097</td>
+                                                                <td>2:12:30</td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row bottom">
+                                    <div class="col-xl-12 trade_history">
+                                        <div class="top_nav">
+                                            <div class="left_nav">
+                                                <nav>
+                                                    <div class="nav nav-tabs nav-fill inner" id="nav-tab"
+                                                        role="tablist">
+                                                        <a class="nav-item nav-link active" id="nav-active"
+                                                            data-toggle="tab" href="#" role="tab"
+                                                            aria-controls="nav-active" aria-selected="true">Active</a>
+                                                        <a class="nav-item nav-link" id="nav-field" data-toggle="tab"
+                                                            href="#nav-foeld" role="tab" aria-controls="nav-field"
+                                                            aria-selected="false">Field</a>
+                                                        <a class="nav-item nav-link" id="nav-history" data-toggle="tab"
+                                                            href="#nav-history" role="tab" aria-controls="nav-history"
+                                                            aria-selected="false">History</a>
+                                                    </div>
+
+                                                </nav>
+
+                                            </div>
+
+                                            <div class="right_nav">
+                                                <div class="all_pairs">
+                                                    <h5>All pairs</h5> <input type="checkbox" checked="checked">
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                                <div class="export_history"><button type="submit" class="export">Export
+                                                        history</button>
+                                                </div>
+                                                <a href=""><i class="fa fa-arrows-h"></i></a>
+                                            </div>
+                                        </div> <!-- ### End of top Nav ##-->
+
+                                        <div class="nav_menus">
+                                            <div class="type_menu">
+                                                <h6>Type <i class="fa fa-arrow-up"></i></h6>
+                                            </div>
+                                            <div class="con_menu">
+                                                <h6>Conditions</h6>
+                                            </div>
+                                            <div class="size_menu">
+                                                <h6>Size . NEO <i class="fa fa-arrow-up"></i></h6>
+                                            </div>
+                                            <div class="price_menu">
+                                                <h6>Price . ETH <i class="fa fa-arrow-up"></i></h6>
+                                            </div>
+                                            <div class="order_menu">
+                                                <h6>Order total <i class="fa fa-arrow-up"></i></h6>
+                                            </div>
+                                            <div class="filled_menu">
+                                                <h6>Filled <i class="fa fa-arrow-up"></i></h6>
+                                            </div>
+                                            <div class="time_menu">
+                                                <h6>Time <i class="fa fa-arrow-up"></i></h6>
+                                            </div>
+                                            <div class="can_menu">
+                                                <h6>Cancel all</h6>
+                                            </div>
+                                        </div>
+                                        <div class="table_book">
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up r"></i>&nbsp;Limit buy
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up r"></i>&nbsp;Limit sell
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up g"></i>&nbsp;Limit buy
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up r"></i>&nbsp;Limit sell
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up g"></i>&nbsp;Limit buy
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up r"></i>&nbsp;Limit sell
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up r"></i>&nbsp;Limit sell
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up r"></i>&nbsp;Limit buy
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up r"></i>&nbsp;Limit buy
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up g"></i>&nbsp;Limit buy
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up g"></i>&nbsp;Limit buy
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="one"><i class="fa fa-arrow-up g"></i>&nbsp;Limit sell
+                                                        </td>
+                                                        <td class="two">-</td>
+                                                        <td class="three">10</td>
+                                                        <td class="four">0.6809745</td>
+                                                        <td class="five">0.68095</td>
+                                                        <td class="six">10%</td>
+                                                        <td class="sev">02-10-2018 . 19:12</td>
+                                                        <td class="del"><i class="fa fa-trash-o" style="color:red"></i>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

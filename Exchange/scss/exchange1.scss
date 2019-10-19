@@ -1,0 +1,967 @@
+@mixin tabs {
+    border: 1px solid black;
+    height: 900px;
+    margin-top: 13px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 5px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+
+    main {
+        border: 1px solid black;
+        background-color: rgb(208, 213, 218);
+        // height: 800px;
+        
+        .top_menu {
+            height: auto;
+            border: 1px solid black;
+            .full_side {
+                // width: 900px;
+                height: 80px;
+                border: 1px solid black;
+                background-color: #fff;
+                .first, .second, .third {
+                    // border: 1px solid yellow;
+                    height: 80px;
+                }
+                .first {
+                    padding: 17px 20px;
+                    span {
+                        font-size: 14px;
+                        color: #404855;
+                        margin-left: 15px;
+                        margin-bottom: -20px;
+                        // border: 1px solid red;
+                    }
+                    a {
+                        font-size: 20px;
+                        color: rgb(13, 13, 80);
+                        font-weight: 400;
+                        margin-left: 15px;
+                        // border: 1px solid red;
+                        padding: 0px;
+                        em {
+                            font-style: normal;
+                            color: #404855;
+                        }
+                        .fa {
+                            float: right;
+                        }
+                        
+                    }
+                }
+    
+                .second {
+                    width: 100%;
+                    height: 80px;
+                    padding: 6px 20px;
+                    border: 1px solid black;
+                    .crypto_price, .change, .volume {
+                        display: inline-block;
+                        padding: 15px 29px;
+                        height: 60px;
+                        // margin-right: 10px; 
+                        border-right: 2px solid rgb(222, 225, 230);
+                        span {
+                            font-size: 14px;
+                            color: #404855;
+                        }
+                        h5 {
+                            font-size: 14px;
+                            color: rgb(13, 13, 80);
+                            em {
+                                font-style: normal;
+                                color: #404855;
+                            }
+                            
+                        }
+                    }
+                    .volume {
+                        border: none;
+                    }
+                }
+    
+                .third {
+                    width: 100%;
+                    height: 80px;
+                    // padding: 10px 6px;
+                    border: 1px solid black;
+                    li{
+                        display: inline-block;
+                        padding: 20px 10px;
+                        // margin-right: 10px; 
+                        // margin-top: -20px;
+                        border-right: 2px solid rgb(222, 225, 230);
+                        font-size: 15px;
+                        color: rgb(13, 13, 80);
+                        height: 60px;
+                        border:1px solid black;
+                    }
+                    .switch_to {
+                        width: 90px;
+                        border: 1px solid black;
+                        // margin-top: 5px;
+                    }
+                }
+            } 
+
+        }
+        .main_body {
+            height: auto;
+            // border: 1px solid black;
+            margin-top: 5px;
+            // padding: 5px;
+            font-size: 14px;
+
+            .all_trades {
+                // border: 1px solid blue;
+                height: 745px;
+                border-radius: 5px;
+
+                .account_books, .trade_prices{
+                    // border: 1px solid black;
+                    height: 740px;
+                    padding: 0px;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+                .account_books {
+                    padding: 0px;
+                    .left {
+                        // border: 1px solid red;
+                        height: 745px; 
+                          
+                        
+                        .left_accounts, .right_books {
+                            // border: 1px solid black;
+                            height: 740px;
+                            padding: 0px 3px;
+                            // border-radius: 4px;
+                        }
+                        .left_accounts {
+                            .account_section {
+                                // border: 1px solid red;
+                                height: 740px;
+                                border-radius: 4px;
+
+                                .trade_account, .purchase {
+                                    border: 1px solid black;
+                                    border-radius: 4px;
+                                    
+                                }
+
+                                .trade_account {
+                                    // height: 150px;
+                                    .nav-tabs {
+                                        .nav-item {
+                                            display: inline-block;
+                                            font-size: 13px;
+                                            word-spacing: 1px;
+                                            border-radius: none;
+                                            padding: 10px 5px;
+                                            background-color: rgb(222, 225, 230);
+                                            color: black;
+                                        }
+                                        .active {
+                                            border-bottom: 3px solid blue;
+                                            color: blue;
+                                        }
+                                    }
+                                    .tab-content {
+                                        .coin_content {
+                                            margin-top: -10px;
+                                            padding: 0px 7px;
+                                            .content_one, .content_two {
+                                                padding: 13px 10px;
+                                                align-items: baseline;
+                                            }
+                                           
+                                            .content_one, .content_two {
+                                                
+                                                span {
+                                                    font-size: 14px;
+                                                    color: #404855;
+                                                    font-weight: 500;
+                                                }
+                                                h5 {
+                                                    font-size: 14px;
+                                                    color: rgb(13, 13, 80);
+                                                    em {
+                                                        font-style: normal;
+                                                        color: #404855;
+                                                    }
+                                                    
+                                                }
+                                                .figures, a {
+                                                    display: inline-block;
+                                                }
+                                                .figures {
+                                                    margin-left: 50px;
+                                                    &::before {
+                                                        content:'';
+                                                        position: absolute;
+                                                        height: 40px;
+                                                        width: 30px;
+                                                        left: 27px;
+                                                        background: url(../icon/eth.png) no-repeat 50% 50%;
+                                                        background-size: 100%;
+                                                        // border: 1px solid blue;
+                                                    }
+                                                }
+                                                a {
+                                                    // text-align: right;
+                                                    float: right;
+                                                    font-size: 14px;
+                                                    margin-top: 20px;
+                                                }
+                                            }
+                                            .content_two {
+                                                .figures {
+                                                    &::before {
+                                                        background: url(../icon/neo.png) no-repeat 50% 50%; 
+                                                    }
+                                                }
+                                                border-top: 1px solid rgb(222, 225, 230);
+                                            }
+                                        }
+                                    }
+                                }
+                                .purchase {
+                                    margin-top: 6px;
+                                    // height: 580px;
+                                    background-color: #fff;
+                                    .nav-tabs {
+                                        .nav-item {
+                                            display: inline-block;
+                                            font-size: 13px;
+                                            word-spacing: 1px;
+                                            border-radius: none;
+                                            // width: 130px;
+                                            padding: 10px 5px;
+                                            // height: 40px;
+                                            border: none;
+                                            background-color: rgb(222, 225, 230);
+                                            color: black;
+                                        }
+                                        .active {
+                                            border-bottom: 2px solid blue;
+                                            color: blue;
+                                        }
+                                    }
+                                    .tab-content {
+                                        border-bottom: 1px solid rgb(222, 225, 230);
+                                        background-color: #fff;
+                                        .inner {
+                                            // margin-top: 13px;
+                                            padding: 0px 15px;
+                                            padding-top: 10px;
+                                            border: 1px solid black;
+                                            .nav-item {
+                                                display: inline-block;
+                                                font-size: 13px;
+                                                word-spacing: .7px;
+                                                // width: 30px;
+                                                padding: 0px 12px;
+                                                height: 40px;
+                                                border: none;
+                                                border-radius: none;
+                                                background-color: #fff;
+                                                color: black;
+                                                // border: 1px solid red;
+                                            }
+                                            .active {
+                                                border-bottom: 2px solid blue;
+                                                color: blue;
+                                                // width: 10px;
+                                            }
+                                            
+                                        }
+                                    }
+                                    .purchase_contents {
+                                        // border: 1px solid black;
+                                        // height: 500px;
+                                        // padding: 20px 10px;
+            
+                                        .amount_form, .limit_form {
+                                            h5 {
+                                                font-size: 14px;
+                                                color: rgb(13, 13, 80);
+            
+                                            }
+                                            span {
+                                                font-size: 14px;
+                                                font-weight: 500;
+                                                color: blue;
+                                                em {
+                                                    font-style: normal;
+                                                    color: #404855;
+                                                }
+                                            }
+                                            form {
+                                                border: 1px solid rgb(222, 225, 230);
+                                                border-radius: 4px;
+                                                border-bottom-left-radius: 0px;
+                                                border-bottom-right-radius: 0px;
+                                                padding: 5px 0;
+                                                border: 1px solid red;
+                                                width: 100%;
+                                                input {
+                                                    width: 130px;
+                                                    border: none;
+                                                    outline: none;
+                                                    padding-left: 8px;
+                                                    color: black;
+                                                    @include media-breakpoint-down(lg){
+                                                        width: 90px;
+                                                        background-color: yellow;
+                                                    }
+                                                } 
+                                            }
+                                        }
+                                        .limit_form {
+                                            form { 
+                                                height: 40px;
+                                            }
+                                            .limit_dropdown {
+                                                border: 1px solid rgb(222, 225, 230);
+                                                margin-top: -16px;
+                                                border-radius: 4px;
+                                                border-top-right-radius: 0px; 
+                                                border-top-left-radius: 0px; 
+                                                a {
+                                                    font-size: 14px;
+                                                    color: blue;
+                                                }
+                                                .fa {
+                                                    float: right;
+                                                }
+                                            }
+                                        }
+                                        .estimates {
+                                            border-bottom: 1px solid rgb(222, 225, 230);
+                                            // height: 50px;
+                                            padding: 5px 0;
+                                            h5 {
+                                                font-size: 12px;
+                                                // border: 1px solid red;
+                                                width: 150px;
+                                                em {
+                                                    font-style: normal;
+                                                    color: blue;
+                                                }
+                                            }
+                                            span {
+                                                font-size: 12px;
+                                                font-weight: 500;
+                                                text-align: right;
+                                                float: right;
+                                            }
+                                            h5, span {
+                                                display: inline-block;
+                                            }
+                                            .first {
+                                                // border: 1px solid red;
+                                                margin-top: 8px;
+                                                color: rgb(164, 165, 168);
+                                            }
+                                            
+                                        }
+                                        .takers {
+                                            border-bottom: 1px solid rgb(222, 225, 230);
+                                            margin-top: 5px;
+                                            h5, input {
+                                                display: inline-block;
+                                            }
+                                            input {
+                                                float: right;
+                                            }
+                                            h5 {
+                                                font-size: 12px;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                        .buy_order {
+                                            width: 100%;
+                                            background-color: rgb(222, 225, 230);
+                                            padding: 10px;
+                                            color: rgb(37, 34, 34);
+                                            border: none;
+                                            outline: none;
+                                            border-radius: 5px;
+                                            &:hover {
+                                                background-color: blue;
+                                                color: white;
+                                            }
+                                        }
+                                        .daily_trade {
+                                            border-top: 2px solid rgb(222, 225, 230);
+                                            font-size: 12px;
+                                            margin-top: 10px;
+                                            padding-top: 20px;
+                                            .first, .second {
+                                                // border: 1px solid blue;
+                                                h5, a, hr {
+                                                    display: inline-block;
+                                                    font-size: 12px;
+                                                    word-spacing: .5px;
+                                                
+                                                }
+                                                h5 {
+                                                    color: rgb(13, 13, 80); 
+                                                }
+                                                a {
+                                                    float: right;
+                                                    color: blue;
+                                                    font-weight: bold;
+                                                }
+                                                hr {
+                                                    width: 30px;
+                                                    border: 2px solid rgb(222, 225, 230);
+                                                    float: right;
+                                                    margin-top: 2px;
+                                                    border-radius: 5px;
+                                                }
+                                                .second {
+                                                    h5 {
+                                                        color: rgb(222, 225, 230);
+                                                    }
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .right_books {
+                            .book_section {
+                                // border: 1px solid red;
+                                height: 740px;
+                                border-radius: 4px;
+
+                                .order_book {
+                                    border: 1px solid black;
+                                    border-radius: 4px;
+                                    height: 740px;
+
+                                    .top_order {
+                                        margin-top:2px;
+                                            padding: 7px 12px;
+                                            height: 40px;
+                                            border-bottom: 1px solid rgb(222, 225, 230);
+                                            background-color: rgb(222, 225, 230);
+                                        h5, .adjust {
+                                            display: inline-block;
+                                            font-size: 14px;
+                                            color: rgb(13, 13, 80)
+                                        }
+                                        .fa {
+                                            color: blue;
+                                            margin-right: 4px;
+                                        }
+                                        .adjust {
+                                            float: right;
+                                        }
+                                    }
+                                    .table_head, .table_head2 {
+                                        background-color: #fff;
+                                        height: 30px;
+                                        padding: 6px 30px;
+                                        text-align: left;
+                                        position: relative;
+                                        h5, .arrow_select {
+                                            display: inline-block;
+                                            font-size: 13px;
+                                            color: rgb(13, 13, 80);
+                                        }
+                                        .two {
+                                            float: right;
+                                        }
+                                        .arrow_select {
+                                            border: 1px solid rgb(222, 225, 230);
+                                            padding: 7.3px;
+                                            position: absolute;
+                                            left: 0px;
+                                            bottom: 0px;
+                                            .fa {
+                                                color: blue;
+                                            }
+                                        }
+                                        .table_head2 {
+                                            background-color: rgb(164, 165, 168);
+                                            padding: 7px 30px;
+                                        }
+                                    }
+                                    
+                                    .table_book, .table_book2 {
+                                        background-color: #fff;
+                                        height: 327px;
+                                        border: 1px solid black;
+                                        overflow-x: scroll;
+                                        .table {
+                                            // text-align: right;
+                                            
+                                            th {
+                                                font-size: 14px;
+                                                padding: 5px;
+                                                font-weight: 400;
+                                                text-align: right;
+                                                // margin-right: 20px;
+                                            }
+            
+                                            td {
+                                                // text-align: center;
+                                                padding: 4px;
+                                                padding-right: 30px;
+                                                font-size: 13px;
+                                                // margin-left: 20px;
+                                                text-align: right;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .trade_prices {
+                    padding: 0px;
+                    .right{
+                        // border: 1px solid red;
+                        height: 745px;
+                        
+                        .markets, .right_recents {
+                            padding: 0px 3px;
+                        }
+                        .markets {
+                            // border: 1px solid green;
+                            height: 500px;
+                            .graph {
+                                border: 1px solid black;
+                                height: 500px;
+                                border-radius: 4px;
+                                .top_order {
+                                    margin-top:2px;
+                                        padding: 7px 12px;
+                                        height: 40px;
+                                        border-bottom: 1px solid rgb(222, 225, 230);
+                                        background-color: rgb(222, 225, 230);
+                                    h5, .adjust {
+                                        display: inline-block;
+                                        font-size: 14px;
+                                        color: rgb(13, 13, 80)
+                                    }
+                                    .fa {
+                                        color: blue;
+                                        margin-right: 4px;
+                                    }
+                                    .adjust {
+                                        float: right;
+                                    }
+                                }
+                                .top_nav {
+                                    background-color: #dee1e6;
+                                    border: 1px solid black;
+                                    font-size: 12px;
+                                    // height: 50px;
+                                    .left_nav, .right_nav {
+                                        border: 1px solid black;
+                                        display: inline-block;
+                                        
+                                        // height: 50px;
+                                    } 
+                                    .left_nav {
+                                        font-size: 12px;
+                                        .nav-tabs {
+                                            
+                                            .nav-item {
+                                                background-color: #dee1e6;
+                                                display: inline-block;
+                                                font-size: 12px;
+                                                word-spacing: 1px;
+                                                border-radius: none;
+                                                // width: 130px;
+                                                padding: 7px 12px;
+                                                height: 40px;
+                                                border: none;
+                                                // background-color: #fff;
+                                                color: black;
+                                            }
+                                            .active {
+                                                border-bottom: 2px solid blue;
+                                                color: blue;
+                                            }
+                                        }
+                                    }
+                                    .right_nav {
+                                        float: right;
+                                        background-color: #dee1e6;
+                                        // border: 1px solid red;
+                                        height: 42px;
+                                        // width: 250px;
+                                        position: relative;
+                                        .hour, .indicate, .plug, .overlay, .adjust {
+                                            display: inline;
+                                            // margin-right: 4px;
+                                            border-right: 2px solid rgb(144, 145, 148); 
+                                            // padding: 0px;
+                                            // padding:9px 0px 14px 0px;
+                                            // border: 1px solid black;
+                                            // margin: auto;
+                                            padding: 8px 0px 18px 0px;
+                                            // height: 15px;
+                                        
+                                            a {
+                                                // margin-left: -4px;
+                                                padding: 0px;
+                                                border: 1px solid red;
+                                                // width: 4px;
+                                                // display: none;
+                                            }
+                                            // ::after {
+                                            //     content: '';
+                                            //     position: absolute;
+                                            //     border: 1px solid green;
+                                            //     height: 5px;
+                                            //     width: 10px;
+                                            //     right: 10px;
+                                            // }
+                                            
+                                        }
+                                        
+                                        
+                                        .fa {
+                                            // border: 1px solid black;
+                                            padding: 9px;
+                                        }
+                
+                                    } 
+                                }
+                                .table_head {
+                                    background-color: #fff;
+                                    height: 30px;
+                                    // padding: 6px 0px;
+                                    text-align: left;
+                                    position: relative;
+                                    border: 1px solid black;
+                                    .neo_eth, .neo_scores {
+                                        display: inline-block;
+                                        // padding-top: 3px;
+                                        color: rgb(13, 13, 80);
+                                        border: 1px solid red;
+                                        
+                                        h5 {
+                                            font-size: 12px;
+                                            display: inline-block;
+                                            margin-left: 2px;
+                                            border: 1px solid red;
+                                            span {
+                                                font-weight: bold;
+                                            }
+                                        }
+                                    }
+                                    .neo_scores {
+                                        float: right;
+                                        // padding-top: 2px;
+                                    }
+                                    .neo_eth {
+                                        padding-top: 4px;
+                                        h5 {
+                                            font-weight: bold;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .right_recents {
+                            // border: 1px solid green;
+                            height: 500px;
+
+                            .recent_section {
+                                border: 1px solid black;
+                                height: 500px;
+                                border-radius: 4px;
+
+                                .top_recent {
+                                    margin-top:2px;
+                                    padding: 7px 0px;
+                                    height: 40px;
+                                    border-bottom: 1px solid rgb(222, 225, 230);
+                                    background-color: rgb(222, 225, 230);
+                                h5, .two {
+                                    display: inline-block;
+                                    font-size: 15px;
+                                    color: rgb(13, 13, 80);
+                                    font-weight: 500;
+                                    padding: 0px 12px;
+                                }
+                                .two {
+                                    float: right;
+                                }
+                                .table_head {
+                                    background-color: #fff;
+                                    height: 30px;
+                                    padding: 6px 10px;
+                                    // text-align: left;
+                                    // position: relative;
+                                    // border: 1px solid red;
+                                    h5  {
+                                        display: inline-block;
+                                        font-size: 13px;
+                                        color: rgb(13, 13, 80);
+                                        
+                                    }
+                                    .three {
+                                        float: right;
+                                    }
+                                }
+                                .table_book {
+                                    background-color: #fff;
+                                    height: 433px;
+                                    border: 1px solid black;
+                                    overflow-x: scroll;
+                                    .table {
+                                        // text-align: right;
+                                        position: relative;
+                                        
+                                        // th {
+                                        //     font-size: 14px;
+                                        //     padding: 5px;
+                                        //     font-weight: 400;
+                                        //     text-align: right;
+                                        //     // margin-right: 20px;
+                                        // }
+        
+                                        td {
+                                            // text-align: center;
+                                            padding: 4px;
+                                            padding-right: 30px;
+                                            font-size: 13px;
+                                            margin-left: 0px;
+                                            text-align: right;
+                                        }
+                                        .fa {
+                                            position: absolute;
+                                            left: 3px;
+                                            font-weight: 300px;
+                                        }
+                                        .g {
+                                            color: green;
+                                        }
+                                        .r {
+                                            color: red;
+                                        }
+                                    }
+                                }
+                            }
+                            }
+                        }
+
+
+                        .bottom {
+                            // padding: 0px;
+                            // border: 1px solid green;
+                            height: 230px;
+                            margin-top: 6px;
+                            padding: 0px 3px;
+                            .trade_history {
+                                height: 230px;
+                                border-radius: 4px;
+                                border: 1px solid black;
+                                padding: 0px;
+                                width: 100%;
+                                .top_nav {
+                                    border: 1px solid black;
+                                    // height: 50px;
+                                    .left_nav, .right_nav {
+                                        border: 1px solid black;
+                                        display: inline-block;
+                                        // height: 50px;
+                                    } 
+                                    .left_nav {
+                                        font-size: 12px;
+                                        .nav-tabs {
+                                            
+                                            .nav-item {
+                                                display: inline-block;
+                                                font-size: 13px;
+                                                word-spacing: 1px;
+                                                border-radius: none;
+                                                // width: 130px;
+                                                padding: 7px 12px;
+                                                height: 40px;
+                                                border: none;
+                                                background-color: #dee1e6;
+                                                color: black;
+                                            }
+                                            .active {
+                                                border-bottom: 2px solid blue;
+                                                color: blue;
+                                            }
+                                        }
+                                    }
+                                    .right_nav {
+                                        float: right;
+                                        // border: 1px solid red;
+                                        height: 42px;
+                                        // width: 250px;
+                                        .all_pairs, .export_history {
+                                            display: inline;
+                                            margin-right: 4px;
+                                            border-right: 1px solid rgb(222, 225, 230); 
+                                            padding:9px 4px 14px;
+                                            
+                                        }
+                                        .all_pairs{
+                                            h5  {
+                                                display: inline-block;
+                                                font-size: 13px;
+                                                color: rgb(13, 13, 80);
+                                            }
+                                        }
+                                        .export_history {
+                                            .export {
+                                                font-size: 13px;
+                                                color: blue;
+                                                background-color: #fff;
+                                                padding: 3px 5px;
+                                                outline: none;
+                                                border: 1px solid black;
+                                                border-radius: 3px;
+                                                &:hover {
+                                                    background-color: blue;
+                                                    color: white;
+                                                }
+                                            }
+                                            
+                                        }
+                                        .fa {
+                                            // border: 1px solid black;
+                                            padding: 9px;
+                                        }
+                
+                                    } 
+                                }
+                                .nav_menus {
+                                    border: 1px solid black;
+                                    height: 29px;
+                                    background-color: rgb(164, 165, 168);
+                                    padding: 0px 7px;
+                                    
+                                    .type_menu, .con_menu, .size_menu, .price_menu, .order_menu, .filled_menu, .time_menu, .can_menu {
+                                        display: inline-block; 
+                                        color: blue;
+                                    }
+                                    h6 {
+                                        font-size: 12px;
+                                        border: 1px solid black;
+                                    }
+                                    // .type_menu {
+                                    //     // margin-left: 10px;
+                                    // }
+                                    .con_menu {
+                                        margin-left: 30px;
+                                        margin-right: 40px;
+                                        color: rgb(222, 225, 230);
+                                    }
+                                    .size_menu {
+                                        margin-left: 20px;
+                                    }
+                                    .price_menu {
+                                        margin-left: 30px;
+                                    }
+                                    .order_menu {
+                                        margin-left: 10px;
+                                    }
+                                    .filled_menu {
+                                        margin-left: 30px;
+                                    }
+                                    .time_menu {
+                                        margin-left: 40px;
+                                    }
+                                    .can_menu {
+                                        color: red;
+                                        margin-top: 5px;
+                                        float: right;
+                                        // border: 1px solid black; 
+                                    }
+                                }
+                                .table_book {
+                                    background-color: #fff;
+                                    height: 175px;
+                                    border: 1px solid black;
+                                    overflow-x: scroll;
+                                    width: 100%;
+                                    .table {
+                                        // text-align: right;
+                                        // position: relative;
+                
+                                        td {
+                                            // text-align: center;
+                                            padding: 4px;
+                                            // padding-right: 30px;
+                                            font-size: 12px;
+                                            // margin-left: 0px;
+                                            // text-align: right;
+                                            border: 1px solid black;
+                                            
+                                        }
+                                        .fa {
+                                            font-weight: 300px;
+                                            margin-right: 2px;
+                                        }
+                                        .g {
+                                            color: rgb(8, 206, 8);
+                                        }
+                                        .r {
+                                            color: rgb(226, 37, 37);
+                                        }
+                                        .one {
+                                            width: 70px;
+                                        }
+                                        .two{
+                                            color: red;
+                                            padding-left: 60px;
+                                            width: 130px;
+                                        }
+                                        .three {
+                                            text-align: right;
+                                            width: 50px;
+                                        }
+                                        .four {
+                                            text-align: right; 
+                                            width: 100px;
+                                        }
+                                        .five {
+                                            text-align: right;
+                                            width: 90px;
+                                        }
+                                        .six {
+                                            text-align: right;
+                                            width: 60px;
+                                        }
+                                        .sev {
+                                            text-align: right;
+                                            width: 120px;
+                                        }
+                                        .del {
+                                            text-align: right;
+                                            width: 40px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    
+                }
+            }
+        }
+    }
+
+}

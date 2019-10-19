@@ -1,0 +1,927 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body main {
+  border: 1px solid black;
+  background-color: #d0d5da;
+}
+
+body main .top_menu {
+  height: auto;
+  border: 1px solid black;
+}
+
+body main .top_menu .full_side {
+  height: 80px;
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+body main .top_menu .full_side .first, body main .top_menu .full_side .second, body main .top_menu .full_side .third {
+  height: 80px;
+}
+
+body main .top_menu .full_side .first {
+  padding: 17px 20px;
+}
+
+body main .top_menu .full_side .first span {
+  font-size: 14px;
+  color: #404855;
+  margin-left: 15px;
+  margin-bottom: -20px;
+}
+
+body main .top_menu .full_side .first a {
+  font-size: 20px;
+  color: #0d0d50;
+  font-weight: 400;
+  margin-left: 15px;
+  padding: 0px;
+}
+
+body main .top_menu .full_side .first a em {
+  font-style: normal;
+  color: #404855;
+}
+
+body main .top_menu .full_side .first a .fa {
+  float: right;
+}
+
+body main .top_menu .full_side .second {
+  width: 100%;
+  height: 80px;
+  padding: 6px 20px;
+  border: 1px solid black;
+}
+
+body main .top_menu .full_side .second .crypto_price, body main .top_menu .full_side .second .change, body main .top_menu .full_side .second .volume {
+  display: inline-block;
+  padding: 15px 29px;
+  height: 60px;
+  border-right: 2px solid #dee1e6;
+}
+
+body main .top_menu .full_side .second .crypto_price span, body main .top_menu .full_side .second .change span, body main .top_menu .full_side .second .volume span {
+  font-size: 14px;
+  color: #404855;
+}
+
+body main .top_menu .full_side .second .crypto_price h5, body main .top_menu .full_side .second .change h5, body main .top_menu .full_side .second .volume h5 {
+  font-size: 14px;
+  color: #0d0d50;
+}
+
+body main .top_menu .full_side .second .crypto_price h5 em, body main .top_menu .full_side .second .change h5 em, body main .top_menu .full_side .second .volume h5 em {
+  font-style: normal;
+  color: #404855;
+}
+
+body main .top_menu .full_side .second .volume {
+  border: none;
+}
+
+body main .top_menu .full_side .third {
+  width: 100%;
+  height: 80px;
+  border: 1px solid black;
+}
+
+body main .top_menu .full_side .third li {
+  display: inline-block;
+  padding: 20px 10px;
+  border-right: 2px solid #dee1e6;
+  font-size: 15px;
+  color: #0d0d50;
+  height: 60px;
+  border: 1px solid black;
+}
+
+body main .top_menu .full_side .third .switch_to {
+  width: 90px;
+  border: 1px solid black;
+}
+
+body main .main_body {
+  height: auto;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+body main .main_body .all_trades {
+  height: 745px;
+  border-radius: 5px;
+}
+
+body main .main_body .all_trades .account_books, body main .main_body .all_trades .trade_prices {
+  height: 740px;
+  padding: 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+body main .main_body .all_trades .account_books {
+  padding: 0px;
+}
+
+body main .main_body .all_trades .account_books .left {
+  height: 745px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts, body main .main_body .all_trades .account_books .left .right_books {
+  height: 740px;
+  padding: 0px 3px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section {
+  height: 740px;
+  border-radius: 4px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .nav-tabs .nav-item {
+  display: inline-block;
+  font-size: 13px;
+  word-spacing: 1px;
+  border-radius: none;
+  padding: 10px 5px;
+  background-color: #dee1e6;
+  color: black;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .nav-tabs .active {
+  border-bottom: 3px solid blue;
+  color: blue;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content {
+  margin-top: -10px;
+  padding: 0px 7px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_one, body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_two {
+  padding: 13px 10px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_one span, body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_two span {
+  font-size: 14px;
+  color: #404855;
+  font-weight: 500;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_one h5, body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_two h5 {
+  font-size: 14px;
+  color: #0d0d50;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_one h5 em, body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_two h5 em {
+  font-style: normal;
+  color: #404855;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_one .figures, body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_one a, body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_two .figures, body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_two a {
+  display: inline-block;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_one .figures, body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_two .figures {
+  margin-left: 50px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_one .figures::before, body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_two .figures::before {
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 30px;
+  left: 27px;
+  background: url(../icon/eth.png) no-repeat 50% 50%;
+  background-size: 100%;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_one a, body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_two a {
+  float: right;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_two {
+  border-top: 1px solid #dee1e6;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .trade_account .tab-content .coin_content .content_two .figures::before {
+  background: url(../icon/neo.png) no-repeat 50% 50%;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase {
+  margin-top: 6px;
+  background-color: #fff;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .nav-tabs .nav-item {
+  display: inline-block;
+  font-size: 13px;
+  word-spacing: 1px;
+  border-radius: none;
+  padding: 10px 5px;
+  border: none;
+  background-color: #dee1e6;
+  color: black;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .nav-tabs .active {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .tab-content {
+  border-bottom: 1px solid #dee1e6;
+  background-color: #fff;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .tab-content .inner {
+  padding: 0px 15px;
+  padding-top: 10px;
+  border: 1px solid black;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .tab-content .inner .nav-item {
+  display: inline-block;
+  font-size: 13px;
+  word-spacing: .7px;
+  padding: 0px 12px;
+  height: 40px;
+  border: none;
+  border-radius: none;
+  background-color: #fff;
+  color: black;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .tab-content .inner .active {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .amount_form h5, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .limit_form h5 {
+  font-size: 14px;
+  color: #0d0d50;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .amount_form span, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .limit_form span {
+  font-size: 14px;
+  font-weight: 500;
+  color: blue;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .amount_form span em, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .limit_form span em {
+  font-style: normal;
+  color: #404855;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .amount_form form, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .limit_form form {
+  border: 1px solid #dee1e6;
+  border-radius: 4px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 5px 0;
+  border: 1px solid red;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .amount_form form input, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .limit_form form input {
+  width: 130px;
+  border: none;
+  outline: none;
+  padding-left: 8px;
+  color: black;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .limit_form form {
+  height: 40px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .limit_form .limit_dropdown {
+  border: 1px solid #dee1e6;
+  margin-top: -16px;
+  border-radius: 4px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .limit_form .limit_dropdown a {
+  font-size: 14px;
+  color: blue;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .limit_form .limit_dropdown .fa {
+  float: right;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .estimates {
+  border-bottom: 1px solid #dee1e6;
+  padding: 5px 0;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .estimates h5 {
+  font-size: 12px;
+  width: 150px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .estimates h5 em {
+  font-style: normal;
+  color: blue;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .estimates span {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: right;
+  float: right;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .estimates h5, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .estimates span {
+  display: inline-block;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .estimates .first {
+  margin-top: 8px;
+  color: #a4a5a8;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .takers {
+  border-bottom: 1px solid #dee1e6;
+  margin-top: 5px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .takers h5, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .takers input {
+  display: inline-block;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .takers input {
+  float: right;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .takers h5 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .buy_order {
+  width: 100%;
+  background-color: #dee1e6;
+  padding: 10px;
+  color: #252222;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .buy_order:hover {
+  background-color: blue;
+  color: white;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade {
+  border-top: 2px solid #dee1e6;
+  font-size: 12px;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .first h5, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .first a, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .first hr, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .second h5, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .second a, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .second hr {
+  display: inline-block;
+  font-size: 12px;
+  word-spacing: .5px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .first h5, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .second h5 {
+  color: #0d0d50;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .first a, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .second a {
+  float: right;
+  color: blue;
+  font-weight: bold;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .first hr, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .second hr {
+  width: 30px;
+  border: 2px solid #dee1e6;
+  float: right;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
+body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .first .second h5, body main .main_body .all_trades .account_books .left .left_accounts .account_section .purchase .purchase_contents .daily_trade .second .second h5 {
+  color: #dee1e6;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section {
+  height: 740px;
+  border-radius: 4px;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book {
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 740px;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .top_order {
+  margin-top: 2px;
+  padding: 7px 12px;
+  height: 40px;
+  border-bottom: 1px solid #dee1e6;
+  background-color: #dee1e6;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .top_order h5, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .top_order .adjust {
+  display: inline-block;
+  font-size: 14px;
+  color: #0d0d50;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .top_order .fa {
+  color: blue;
+  margin-right: 4px;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .top_order .adjust {
+  float: right;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head2 {
+  background-color: #fff;
+  height: 30px;
+  padding: 6px 30px;
+  text-align: left;
+  position: relative;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head h5, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head .arrow_select, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head2 h5, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head2 .arrow_select {
+  display: inline-block;
+  font-size: 13px;
+  color: #0d0d50;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head .two, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head2 .two {
+  float: right;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head .arrow_select, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head2 .arrow_select {
+  border: 1px solid #dee1e6;
+  padding: 7.3px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head .arrow_select .fa, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head2 .arrow_select .fa {
+  color: blue;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head .table_head2, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_head2 .table_head2 {
+  background-color: #a4a5a8;
+  padding: 7px 30px;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_book, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_book2 {
+  background-color: #fff;
+  height: 327px;
+  border: 1px solid black;
+  overflow-x: scroll;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_book .table th, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_book2 .table th {
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 400;
+  text-align: right;
+}
+
+body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_book .table td, body main .main_body .all_trades .account_books .left .right_books .book_section .order_book .table_book2 .table td {
+  padding: 4px;
+  padding-right: 30px;
+  font-size: 13px;
+  text-align: right;
+}
+
+body main .main_body .all_trades .trade_prices {
+  padding: 0px;
+}
+
+body main .main_body .all_trades .trade_prices .right {
+  height: 745px;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets, body main .main_body .all_trades .trade_prices .right .right_recents {
+  padding: 0px 3px;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets {
+  height: 500px;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph {
+  border: 1px solid black;
+  height: 500px;
+  border-radius: 4px;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_order {
+  margin-top: 2px;
+  padding: 7px 12px;
+  height: 40px;
+  border-bottom: 1px solid #dee1e6;
+  background-color: #dee1e6;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_order h5, body main .main_body .all_trades .trade_prices .right .markets .graph .top_order .adjust {
+  display: inline-block;
+  font-size: 14px;
+  color: #0d0d50;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_order .fa {
+  color: blue;
+  margin-right: 4px;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_order .adjust {
+  float: right;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav {
+  background-color: #dee1e6;
+  border: 1px solid black;
+  font-size: 12px;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .left_nav, body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .left_nav {
+  font-size: 12px;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .left_nav .nav-tabs .nav-item {
+  background-color: #dee1e6;
+  display: inline-block;
+  font-size: 12px;
+  word-spacing: 1px;
+  border-radius: none;
+  padding: 7px 12px;
+  height: 40px;
+  border: none;
+  color: black;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .left_nav .nav-tabs .active {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav {
+  float: right;
+  background-color: #dee1e6;
+  height: 42px;
+  position: relative;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav .hour, body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav .indicate, body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav .plug, body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav .overlay, body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav .adjust {
+  display: inline;
+  border-right: 2px solid #909194;
+  padding: 8px 0px 18px 0px;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav .hour a, body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav .indicate a, body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav .plug a, body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav .overlay a, body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav .adjust a {
+  padding: 0px;
+  border: 1px solid red;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .top_nav .right_nav .fa {
+  padding: 9px;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .table_head {
+  background-color: #fff;
+  height: 30px;
+  text-align: left;
+  position: relative;
+  border: 1px solid black;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .table_head .neo_eth, body main .main_body .all_trades .trade_prices .right .markets .graph .table_head .neo_scores {
+  display: inline-block;
+  color: #0d0d50;
+  border: 1px solid red;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .table_head .neo_eth h5, body main .main_body .all_trades .trade_prices .right .markets .graph .table_head .neo_scores h5 {
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 2px;
+  border: 1px solid red;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .table_head .neo_eth h5 span, body main .main_body .all_trades .trade_prices .right .markets .graph .table_head .neo_scores h5 span {
+  font-weight: bold;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .table_head .neo_scores {
+  float: right;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .table_head .neo_eth {
+  padding-top: 4px;
+}
+
+body main .main_body .all_trades .trade_prices .right .markets .graph .table_head .neo_eth h5 {
+  font-weight: bold;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents {
+  height: 500px;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section {
+  border: 1px solid black;
+  height: 500px;
+  border-radius: 4px;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent {
+  margin-top: 2px;
+  padding: 7px 0px;
+  height: 40px;
+  border-bottom: 1px solid #dee1e6;
+  background-color: #dee1e6;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent h5, body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent .two {
+  display: inline-block;
+  font-size: 15px;
+  color: #0d0d50;
+  font-weight: 500;
+  padding: 0px 12px;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent .two {
+  float: right;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent .table_head {
+  background-color: #fff;
+  height: 30px;
+  padding: 6px 10px;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent .table_head h5 {
+  display: inline-block;
+  font-size: 13px;
+  color: #0d0d50;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent .table_head .three {
+  float: right;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent .table_book {
+  background-color: #fff;
+  height: 433px;
+  border: 1px solid black;
+  overflow-x: scroll;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent .table_book .table {
+  position: relative;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent .table_book .table td {
+  padding: 4px;
+  padding-right: 30px;
+  font-size: 13px;
+  margin-left: 0px;
+  text-align: right;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent .table_book .table .fa {
+  position: absolute;
+  left: 3px;
+  font-weight: 300px;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent .table_book .table .g {
+  color: green;
+}
+
+body main .main_body .all_trades .trade_prices .right .right_recents .recent_section .top_recent .table_book .table .r {
+  color: red;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom {
+  height: 230px;
+  margin-top: 6px;
+  padding: 0px 3px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history {
+  height: 230px;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 0px;
+  width: 100%;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav {
+  border: 1px solid black;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .left_nav, body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .right_nav {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .left_nav {
+  font-size: 12px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .left_nav .nav-tabs .nav-item {
+  display: inline-block;
+  font-size: 13px;
+  word-spacing: 1px;
+  border-radius: none;
+  padding: 7px 12px;
+  height: 40px;
+  border: none;
+  background-color: #dee1e6;
+  color: black;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .left_nav .nav-tabs .active {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .right_nav {
+  float: right;
+  height: 42px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .right_nav .all_pairs, body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .right_nav .export_history {
+  display: inline;
+  margin-right: 4px;
+  border-right: 1px solid #dee1e6;
+  padding: 9px 4px 14px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .right_nav .all_pairs h5 {
+  display: inline-block;
+  font-size: 13px;
+  color: #0d0d50;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .right_nav .export_history .export {
+  font-size: 13px;
+  color: blue;
+  background-color: #fff;
+  padding: 3px 5px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .right_nav .export_history .export:hover {
+  background-color: blue;
+  color: white;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .top_nav .right_nav .fa {
+  padding: 9px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus {
+  border: 1px solid black;
+  height: 29px;
+  background-color: #a4a5a8;
+  padding: 0px 7px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .type_menu, body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .con_menu, body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .size_menu, body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .price_menu, body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .order_menu, body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .filled_menu, body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .time_menu, body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .can_menu {
+  display: inline-block;
+  color: blue;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus h6 {
+  font-size: 12px;
+  border: 1px solid black;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .con_menu {
+  margin-left: 30px;
+  margin-right: 40px;
+  color: #dee1e6;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .size_menu {
+  margin-left: 20px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .price_menu {
+  margin-left: 30px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .order_menu {
+  margin-left: 10px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .filled_menu {
+  margin-left: 30px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .time_menu {
+  margin-left: 40px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .nav_menus .can_menu {
+  color: red;
+  margin-top: 5px;
+  float: right;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book {
+  background-color: #fff;
+  height: 175px;
+  border: 1px solid black;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table td {
+  padding: 4px;
+  font-size: 12px;
+  border: 1px solid black;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table .fa {
+  font-weight: 300px;
+  margin-right: 2px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table .g {
+  color: #08ce08;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table .r {
+  color: #e22525;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table .one {
+  width: 70px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table .two {
+  color: red;
+  padding-left: 60px;
+  width: 130px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table .three {
+  text-align: right;
+  width: 50px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table .four {
+  text-align: right;
+  width: 100px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table .five {
+  text-align: right;
+  width: 90px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table .six {
+  text-align: right;
+  width: 60px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table .sev {
+  text-align: right;
+  width: 120px;
+}
+
+body main .main_body .all_trades .trade_prices .right .bottom .trade_history .table_book .table .del {
+  text-align: right;
+  width: 40px;
+}
+/*# sourceMappingURL=exchange1.css.map */
