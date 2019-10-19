@@ -415,20 +415,20 @@ body #fullpage .blog-post .content .blog-sample {
 }
 
 body #fullpage .blog-post .content .blog-sample .blog {
-  height: 120px;
-  width: 250px;
-  background-color: #696767;
+  height: 220px;
+  width: 290px;
+  background-color: white;
 }
 
 body #fullpage .blog-post .content .blog-sample .blog .body {
-  padding: 7px 4px;
+  padding: 7px 9px;
 }
 
 body #fullpage .blog-post .content .blog-sample .blog .body h6 {
   font-weight: 100;
   color: black;
   text-align: justify;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 body #fullpage .blog-post .content .blog-sample .blog .read {
@@ -449,10 +449,15 @@ body #fullpage .blog-post .content .blog-sample .blog .read a {
   float: left;
 }
 
+body #fullpage .blog-post .content .blog-sample .blog img {
+  height: 100px;
+  width: 270px;
+}
+
 body #fullpage .contact-us {
   height: 500px;
   border: 1px solid black;
   background-color: #021423;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 /*# sourceMappingURL=home.css.map */
